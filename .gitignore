@@ -1,0 +1,18 @@
+# 敏感配置
+.env
+*.key
+*.pem
+
+# 依赖包 (太大了，不需要传)
+node_modules/
+.pnpm-store/
+
+# 运行时产生的文件
+logs/
+temp/
+*.log
+pm2.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
