@@ -1,18 +1,39 @@
-# 敏感配置
-.env
-*.key
-*.pem
-
-# 依赖包 (太大了，不需要传)
+# Node.js
 node_modules/
-.pnpm-store/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+.npm
+.yarn
 
-# 运行时产生的文件
-logs/
-temp/
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+dist/
+build/
+.out/
+
+# Logs
+logs
 *.log
-pm2.log
 
-# 系统文件
+# Runtime data
+.knowledge-base-data/
+.data/
+.temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
 Thumbs.db
